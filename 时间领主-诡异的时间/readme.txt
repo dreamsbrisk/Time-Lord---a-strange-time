@@ -1,3 +1,20 @@
+:: Vintage graphics
+:: Weird music
+:: Leaf Collector
+:: Story Mode
+:: Extreme weapons
+
+*å¤å¤çš„ç”»é¢
+*è¯¡å¼‚çš„éŸ³ä¹
+*å¶å­æ”¶è—å®¶
+*å‰§æƒ…æ¨¡å¼
+*æç«¯æ­¦å™¨
+
+
+
+
+
+
 fariyempireMOD will make the time lord without territory
 Time Lord MOD is not compatible with AC faction MOD
 
@@ -23,23 +40,23 @@ This version has not been released, just a debug version.
 
 
 
-fariyempireMOD½«Ê¹Ê±¼äÁìÖ÷Ã»ÓĞÁìµØ
-Ê±¼äÁìÖ÷MOD²»¼æÈİACÅÉÏµMOD
+fariyempireMODå°†ä½¿æ—¶é—´é¢†ä¸»æ²¡æœ‰é¢†åœ°
+æ—¶é—´é¢†ä¸»MODä¸å…¼å®¹ACæ´¾ç³»MOD
 
 
 
-ÄÚº¬Randomly generate background musicMOD
-ÒôÀÖÎÄ¼şÇëÎğ×ªÔØ
+å†…å«Randomly generate background musicMOD
+éŸ³ä¹æ–‡ä»¶è¯·å‹¿è½¬è½½
 
 
-ÈçÓĞÒÉÎÊ£¬ÇëÔÚÍâĞ­ÈºÁªÏµMumu-xi
-»òÕß
-	ÓÊÏä£ºdreamsbrisk@outlook.com
+å¦‚æœ‰ç–‘é—®ï¼Œè¯·åœ¨å¤–åç¾¤è”ç³»Mumu-xi
+æˆ–è€…
+	é‚®ç®±ï¼šdreamsbrisk@outlook.com
 	QQ:1668751881
-	aminoÀïµÄreassemblyÉçÇø
+	aminoé‡Œçš„reassemblyç¤¾åŒº
 
 
 
-Ê±¼äÁìÖ÷-¹îÒìµÄÊ±¼ä
-°æ±¾ºÅ£º0.132
-¸Ã°æ±¾²¢Ã»ÓĞ·¢²¼£¬Ö»ÊÇµ÷ÊÔ°æ±¾¡£
+æ—¶é—´é¢†ä¸»-è¯¡å¼‚çš„æ—¶é—´
+ç‰ˆæœ¬å·ï¼š0.132
+è¯¥ç‰ˆæœ¬å¹¶æ²¡æœ‰å‘å¸ƒï¼Œåªæ˜¯è°ƒè¯•ç‰ˆæœ¬ã€‚
