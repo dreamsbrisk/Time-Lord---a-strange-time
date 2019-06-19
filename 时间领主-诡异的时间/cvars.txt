@@ -16,18 +16,17 @@ kRecoilPercent = 0.000
  kHudVisibleDist = 10000
 ### 渲染效果
  kBloomBlocks = 1 # 默认为1
- kBloomBlurRadius = 2 # 默认为3
- kBloomBrightness = 1.6 # 默认为1.5
+ kBloomBlurRadius = 1 # 默认为3
+ kBloomBrightness = 1.5 # 默认为1.5
  kBloomIntensity = 1 # 默认为0
  kBloomScale = 2 # 默认为2
  kBloomTonemap = 1 # 默认为1
-# kParticleCountMax = 24 #粒子数上限
- kBloomRadius = 3
- kBloomResFactor = 2 #武器方块的泛光效果
+#kParticleCountMax = 24 #粒子数上限
+ kBloomRadius = 2
+ kBloomResFactor = 1 #武器方块的泛光效果
 
- kBlurFactor = 1 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的比例系数
- kBlurMenuRadius = 16 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的像素大小
-# kBlurMinDepth = -1 对景深在该参数值大小以上的图形进行模糊效果渲染(如设置为-1 则会模糊开始菜单)
+ kBlurFactor = 0.5 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的比例系数
+ kBlurMenuRadius = 120 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的像素大小
 
 #风车控制系数，默认为1.571
 #此处设为2.8将削弱风车AI

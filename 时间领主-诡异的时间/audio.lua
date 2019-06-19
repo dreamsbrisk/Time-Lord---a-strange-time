@@ -21,11 +21,15 @@
 	},
 	--按钮点击音效
 	ButtonPress = {
-		samples =
-		{
-			"ui\button_03.wav",
-			"ui\button_04.wav",
-			"ui\button_05.wav"},		
+
+		samples = {		
+				"Piano\o.wav",
+				"Piano\p.wav",
+				"Piano\q.wav",
+				"Piano\r.wav",
+				"Piano\s.wav",
+				"Piano\t.wav",
+				"Piano\u.wav"},		
 		pitch = 1.0,
 		volume = 100.0,
 		pitch = 1,
@@ -34,11 +38,15 @@
 	},
     -- 按钮悬停音效
 	ButtonHover = {
-		samples =
-		{			
-			"ui\button_06.wav",
-			"ui\button_07.wav"
-		},
+
+		samples = {		
+				"Piano\o.wav",
+				"Piano\p.wav",
+				"Piano\q.wav",
+				"Piano\r.wav",
+				"Piano\s.wav",
+				"Piano\t.wav",
+				"Piano\u.wav"},
 		pitch = 1.0,
 		volume = 100.0,		
 		pitchRandomize = 0.0,
