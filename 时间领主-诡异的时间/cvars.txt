@@ -1,0 +1,71 @@
+# -*- mode: default-generic -*-
+# kRecoilPercent = 0.400
+kRecoilPercent = 0.000
+ kAgentSpeed = 0
+ kConstructorBlockLimit = 30000
+ kPointMax = 10000000
+ kResourceLifetime = 30
+ kStartingP = 2000
+ kTournamentMaxRadius = 30000
+ kTournamentSkipUnqualifiedShips = 0
+ kUpgradeBlockC = 0
+ kUpgradePCostC = 0
+ kUpgradePCostR = 0
+ kUpgradeBlockR = 0
+ kConstructorViewBounds = {30,3000}
+ kHudVisibleDist = 10000
+### 渲染效果
+ kBloomBlocks = 1 # 默认为1
+ kBloomBlurRadius = 1 # 默认为3
+ kBloomBrightness = 1.5 # 默认为1.5
+ kBloomIntensity = 1 # 默认为0
+ kBloomScale = 2 # 默认为2
+ kBloomTonemap = 1 # 默认为1
+# kParticleCountMax = 24 #粒子数上限
+ kBloomRadius = 2
+ kBloomResFactor = 1 #武器方块的泛光效果
+
+ kBlurFactor = 0.5 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的比例系数
+ kBlurMenuRadius = 1 #控制游戏背景菜单(即按 esc 键呼出菜单)的模糊效果渲染的像素大小
+
+#风车控制系数，默认为1.571
+#此处设为2.8将削弱风车AI
+kSpinnerRate = 2.8
+
+#速度衰减 默认每秒变为之前的80%
+#此处设为接近无衰减，关闭一切推进的舰船将保持静止或做接近匀速直线运动的匀速减速运动
+kPhysicsDamping = 0.9999999
+
+#转向时是否仍然开启无关推进，默认为1（开启），此处设为1
+kNavThrustWhileTurning = 1
+
+#后坐力，默认为40%
+#此处设为10%
+kRecoilPercent = 0.1
+
+#近战伤害相关系数，默认值列表如下
+#系数 kMeleeDamageDivisor = 10000
+#系数 kMeleeDamageExponent = 1.5
+#造成近战伤害所需最小相对速度 kMeleeDamageMinVel = 100
+#最低伤害比例 kMeleeImpactDamageReduction = 0.5
+#此处修改如下
+kMeleeDamageDivisor = 0.1
+kMeleeDamageExponent = 0.1
+kMeleeDamageMinVel = 6000
+kMeleeImpactDamageReduction = 0.01
+
+#方块弹性、被毁时爆炸概率分母、摩擦系数，默认值列表如下
+#弹性系数 kBlockElasticity = 0.4
+#被毁时爆炸概率分母 kBlockExplodeChance = 10 此为十分之一概率
+#摩擦系数 kBlockFriction = 0.8
+#此处修改如下
+kBlockElasticity = 0.1
+kBlockExplodeChance = 100000000
+kBlockFriction = 0.1
+
+#炮弹弹性和摩擦系数 默认值如下
+#弹性系数 kProjectileElasticity = 0.5
+#摩擦系数 kProjectileFriction = 0.6
+#此处修改如下
+kProjectileElasticity = 0.1
+kProjectileFriction = 0.1
