@@ -23,6 +23,13 @@
 	ButtonPress = {
 
 		samples = {		
+				"Piano\h.wav",
+				"Piano\i.wav",
+				"Piano\j.wav",
+				"Piano\k.wav",
+				"Piano\l.wav",
+				"Piano\m.wav",
+				"Piano\n.wav",
 				"Piano\o.wav",
 				"Piano\p.wav",
 				"Piano\q.wav",
@@ -40,6 +47,13 @@
 	ButtonHover = {
 
 		samples = {		
+				"Piano\h.wav",
+				"Piano\i.wav",
+				"Piano\j.wav",
+				"Piano\k.wav",
+				"Piano\l.wav",
+				"Piano\m.wav",
+				"Piano\n.wav",
 				"Piano\o.wav",
 				"Piano\p.wav",
 				"Piano\q.wav",

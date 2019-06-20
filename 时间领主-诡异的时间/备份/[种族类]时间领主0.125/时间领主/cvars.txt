@@ -1,0 +1,16 @@
+# -*- mode: default-generic -*-
+# kRecoilPercent = 0.400
+kRecoilPercent = 0.000
+ kAgentSpeed = 0
+ kConstructorBlockLimit = 30000
+ kPointMax = 10000000
+ kResourceLifetime = 30
+ kStartingP = 2000
+ kTournamentMaxRadius = 30000
+ kTournamentSkipUnqualifiedShips = 0
+ kUpgradeBlockC = 0
+ kUpgradePCostC = 0
+ kUpgradePCostR = 0
+ kUpgradeBlockR = 0
+ kConstructorViewBounds = {30,3000}
+ kHudVisibleDist = 10000
