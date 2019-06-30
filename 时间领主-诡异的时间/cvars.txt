@@ -1,4 +1,4 @@
-
+kGameName = "MUMU^4 XI"  #标题
 ### 渲染效果
  kBloomBlocks = 1 # 默认为1
  kBloomBlurRadius = 1 # 默认为3

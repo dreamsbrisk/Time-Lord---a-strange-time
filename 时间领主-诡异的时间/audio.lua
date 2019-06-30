@@ -118,4 +118,16 @@
 		pitch = 1.0,
 		volume = 100.0,		
 	},
+	CannonSmall =
+	{ 
+-- 小型炮弹音效，音高与炮弹尺寸有关，与游戏核心代码相关。
+	samples = {		
+				"Piano\o.wav",
+				"Piano\p.wav",
+				"Piano\q.wav",
+				"Piano\r.wav",
+				"Piano\s.wav",
+				"Piano\t.wav",
+				"Piano\u.wav"},
+	},
 }
