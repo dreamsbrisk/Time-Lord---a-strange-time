@@ -99,9 +99,9 @@
     {command={}, lifetime=5, features=COMMAND|THRUSTER|TORQUER|EXPLODE|PALETTE, capacity=100,
       fillColor=0xece47f, fillColor1=0xece47f, lineColor=0x000000, thrusterColor=0x90bf95ab,
       thrusterColor1=0x90ad637c, group=20, shape=MISSILE, points=2, durability=0.4,
-      density=0.15, thrusterForce=2600, torquerTorque=4000, explodeDamage=30, explodeRadius=2,
+      density=0.15, thrusterForce=2600, torquerTorque=4000, explodeDamage=30, explodeRadius=0.2,
       sort=-99998}, group=20, shape=RECT_LAUNCHER, name="捣蛋机", points=2,
-    durability=0.5, density=0.15, blurb="发射跟踪导弹", replicateTime=1.5, launcherPower=20,
+    durability=0.5, density=0.15, blurb="发射跟踪导弹", replicateTime=1.5, launcherPower=2,
     launcherOutSpeed=50, sort=110024},
   {2019545, capacity=290, growRate=30, fillColor=0x000000, fillColor1=0xece47f, lineColor=0x000000,
     thrusterColor=0x000000, thrusterColor1=0x000000, 
@@ -314,8 +314,8 @@
     shape=HEXAGON, name="六角墙", durability=1.001, sort=190000},
 
   {2019647, features=TURRET|CANNON|AUTOFIRE|PALETTE, fillColor=0xece47f, fillColor1=0xece47f,shape=ADAPTER,
-    lineColor=0x000000, thrusterColor=0x000000, thrusterColor1=0x000000, cannon={roundsPerSec=1,
-      explosive=PROXIMITY, muzzleVel=1000, power=56, damage=15, range=900, explodeRadius=30,
+    lineColor=0x000000, thrusterColor=0x000000, thrusterColor1=0x000000, cannon={roundsPerSec=0.5,
+      explosive=PROXIMITY, muzzleVel=1000, power=5, damage=15, range=450, explodeRadius=30,
       color=0xece47f}, group=20, name="鞋歌炮", points=-1, durability=0.5, density=0.15,
     blurb="也许这是最强的炮了。\n由宇宙垃圾组成", turretSpeed=12, sort=80022, shroud={{size={2, 2.5},
         offset={8, 0, 0}, taper=0.9}}},
@@ -4568,6 +4568,174 @@ replicateBlock=5304,
 		launcherPower=20,
 		launcherOutSpeed=500,
 	},
+		{
+	    2020593,
+	    group=20,
+		name="星的旋律"
+		blurb="防护性为主的弹幕武器"
+		features=CANNON|PALETTE,
+		shape=TRI
+        fillColor=0xdddddd,
+		fillColor1=0xdddddd,
+		lineColor=0xdddddd,
+		barrelSize={15*4, 4*4}
+		barrelTaper=0.3,
+		growRate=70,
+		aihint_range=-2600000000000,
+		cannon={
+			damage=10/2, 
+			muzzleVel=-4000, 
+			range=0, 
+			roundsPerSec=200,
+			roundsPerBurst=71,
+			burstyness=0.9,
+			color=0x15fdff, 
+			pattern=SPIRAL, 
+			explosive=FRAG_NOFLASH,
+			recoil=0,
+			spread=6.2831852,
+			fragment={damage=1, muzzleVel=-150, range=5, color=0x15fdff, projectileSize=5, spread=2.5, pattern=CONSTANT,
+
+			fragment={damage=100, muzzleVel=-100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=100, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,spread=1,pattern=CONSTANT,
+
+			fragment={damage=100, muzzleVel=-7000, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,spread=4.6, pattern=CONSTANT,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,spread=1,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,spread=1,pattern=WAVE,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			fragment={damage=100, muzzleVel=300, range=1, color=0x15fdff, projectileSize=5, explosive=ENABLED|FRAG_FINAL, explodeRadius=75,
+			
+			}}}}}}}}}}
+			
+			}}}}}}}}}}
+			}}}}}}}}}}
+
+			}}}}}}}}}}
+			}}}}}}}}}}
+
+			}}}}}}}}}}
+			}}}}}}}}}}
+
+			}}}}}}}}}}
+			}}}}}}}}}}
+
+			}}}}}}}}}}
+			}}}}}}}}}}
+			}
+		}
+	}	
 	
   {2020594, shape=GEM_4, name="利刺", features=TURRET|CANNON|PALETTE, group=20, points=4, durability=0.5,
     density=0.15, fillColor=0x111e2b, fillColor1=0x212e4b, lineColor=0x57616a, cannon={roundsPerSec=10,
