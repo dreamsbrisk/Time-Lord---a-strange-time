@@ -16,7 +16,7 @@ Reassembly community in amino
 
 
 Time Lord - a strange time
-Version number: 0.138
+Version number: 0.169
 This version has not been released, just a debug version.
 
 
@@ -41,5 +41,5 @@ fariyempireMOD将使时间领主没有领地
 
 
 时间领主-诡异的时间
-版本号：0.138
+版本号：0.169
 该版本并没有发布，只是调试版本。
