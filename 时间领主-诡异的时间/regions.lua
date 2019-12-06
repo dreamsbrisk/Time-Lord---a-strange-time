@@ -34,4 +34,32 @@
 	asteroidSize={1, 16},
 	asteroidFlags=PENROSE|SQUARE|HEXAGON|TRIANGLE|OCTAGON,
 },
+{
+	ident=200,
+	color=0xece47f,
+	faction=20,
+	count=3,
+	position={0.5, 1},
+	radius={0.08, 0.09},
+	type=2,
+	fleets={
+		{20, { {0, 850000}, {1, 2000} }},
+	},
+	fleetCount={5, 7},
+	fleetFraction=0.1,
+	fortress={
 
+	},
+	fortressCount={3, 6},
+	fortressRadius={1200, 1400},
+	unique={
+		{
+
+		},
+	},
+	uniqueFraction=0.1,
+	ambient={ 2,-1 },
+	asteroidDensity={0, 0.15},
+	asteroidSize={1, 16},
+	asteroidFlags=PENROSE|SQUARE|HEXAGON|TRIANGLE|OCTAGON,
+},

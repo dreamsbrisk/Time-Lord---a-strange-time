@@ -13,5 +13,14 @@
 		color1=0xece47f,
 		aiflags=DODGES|METAMORPHOSIS|SOCIAL|TRACTOR_TRANSIENT|WANDER,
 	},
-
+	200 = {
+		name="^7戴立克",
+		playable=2,
+		start="200_量子破碎",
+		primaries=3,
+		color2=0xece47f,
+		color0=0x000000,
+		color1=0xece47f,
+		aiflags=DODGES|METAMORPHOSIS|SOCIAL|TRACTOR_TRANSIENT|WANDER,
+	},
 }
